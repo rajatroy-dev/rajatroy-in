@@ -2,9 +2,12 @@ module.exports = {
   content: ["*.{html,js}"],
   theme: {
     colors: {
-      'dark': '#0F044C',
+      'dark': {
+        500: '#393E46',
+        900: '#222831',
+      },
       'light': '#EEEEEE',
-      'primary': '#141E61',
+      'primary': '#251D3A',
       'grey': '#787A91'
     },
     extend: {},
